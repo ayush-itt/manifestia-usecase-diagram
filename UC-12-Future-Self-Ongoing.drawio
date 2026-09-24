@@ -1,0 +1,271 @@
+<mxfile host="localhost">
+  <diagram name="Page-1" id="Y5RJG8XqDsKQ_2FiP0CA">
+    <mxGraphModel dx="2480" dy="1416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1550" math="0" shadow="0" adaptiveColors="auto">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" value="Shapes" />
+        <mxCell id="title" parent="1" style="text;html=1;fontSize=18;fontStyle=1;align=left;verticalAlign=middle;whiteSpace=wrap;" value="UC-12: Future Self Ongoing — UML Use Case Diagram" vertex="1">
+          <mxGeometry height="32" width="780" x="250" y="12" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#f5f5f5;strokeColor=#666666;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Legend&lt;/b&gt;&lt;br&gt;Solid line = association&lt;br&gt;Dashed &amp;lt;&amp;lt;include&amp;gt;&amp;gt; = mandatory&lt;br&gt;Dashed &amp;lt;&amp;lt;extend&amp;gt;&amp;gt; = optional / conditional&lt;br&gt;Blue ovals = includes&lt;br&gt;Amber ovals = extends&lt;br&gt;Red oval = crisis exit (not a normal Future Self feature)&lt;br&gt;Arc jump = crossing connectors" vertex="1">
+          <mxGeometry height="195" width="200" x="20" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="actorUser" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;fontStyle=1;" value="User" vertex="1">
+          <mxGeometry height="90" width="50" x="80" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="actorAI" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#FFFFFF;strokeColor=#000000;fontSize=11;" value="AI Conversation&lt;br&gt;Engine" vertex="1">
+          <mxGeometry height="90" width="50" x="2050" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="actorSTT" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#FFFFFF;strokeColor=#000000;fontSize=11;" value="Speech-to-Text&lt;br&gt;Service" vertex="1">
+          <mxGeometry height="90" width="50" x="2046" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="actorSafety" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#FFFFFF;strokeColor=#000000;fontSize=11;" value="Safety&lt;br&gt;Classifier" vertex="1">
+          <mxGeometry height="90" width="50" x="2050" y="723" as="geometry" />
+        </mxCell>
+        <mxCell id="actorVoice" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#FFFFFF;strokeColor=#000000;fontSize=11;" value="Voice Clone&lt;br&gt;Service" vertex="1">
+          <mxGeometry height="90" width="50" x="2050" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="boundary" parent="1" style="swimlane;startSize=32;horizontal=1;collapsible=0;container=1;pointerEvents=0;fillColor=#fafafa;strokeColor=#000000;strokeWidth=2;fontStyle=1;fontSize=16;html=1;whiteSpace=wrap;" value="Manifestia" vertex="1">
+          <mxGeometry height="1300" width="1740" x="250" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="noteMemory" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Future memory generation&lt;/b&gt;&lt;br&gt;Future Self memory is generated from the user&#39;s three-layer architecture and then combined with the running record of previous Future Self conversations and journey activity.&lt;br&gt;&lt;i&gt;Generation is setup; each interaction loads/retrieves that memory.&lt;/i&gt;" vertex="1">
+          <mxGeometry height="118" width="330" x="860" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="noteContinuity" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Continuity rule&lt;/b&gt;&lt;br&gt;Future Self remembers the user&#39;s actual dream, obstacles, past wins, actions and previous conversations. Responses must remain specific to the user&#39;s life and preserve continuity across the 90-day journey." vertex="1">
+          <mxGeometry height="118" width="490" x="1210" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ucReceive" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=center;" value="Receive Future Self Message&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;[System-initiated: Morning Word, Reach]&lt;/font&gt;" vertex="1">
+          <mxGeometry height="88" width="240" x="300" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ucMilestone" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=center;" value="Milestone Future Self Interaction&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;[Day 7 / 30 / 60 / 90; references what the user has actually done]&lt;/font&gt;" vertex="1">
+          <mxGeometry height="88" width="260" x="570" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ucLoad" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;" value="Load Future Self Memory" vertex="1">
+          <mxGeometry height="80" width="240" x="910" y="299" as="geometry" />
+        </mxCell>
+        <mxCell id="ucContinuity" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;" value="Maintain Future Self Continuity" vertex="1">
+          <mxGeometry height="80" width="250" x="905" y="403" as="geometry" />
+        </mxCell>
+        <mxCell id="ucCall" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=center;" value="Call Future Self&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;[User-initiated at a decision, wobble, or doubt. On-demand ~2–6 min]&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="250" x="36" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="ucInteract" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6c8ebf;fontColor=#ffffff;strokeColor=#23445d;strokeWidth=2;fontStyle=1;fontSize=14;align=center;" value="Interact with Future Self" vertex="1">
+          <mxGeometry height="140" width="340" x="360" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="ucConduct" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;" value="Conduct Future Self Conversation&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;(Voice or Text)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="270" x="900" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="ucElder" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=center;" value="Elder Conversation&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;[Day ≥ 60 and user opts in. Meaning / perspective, not strategy]&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="250" x="36" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="ucClose" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;" value="Close with One Small Action" vertex="1">
+          <mxGeometry height="84" width="260" x="380" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="ucSafety" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;" value="Run Safety Check" vertex="1">
+          <mxGeometry height="80" width="240" x="900" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="ucCrisis" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;align=center;" value="Exit to Crisis Pathway&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;[Acute distress / self-harm intent detected]&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="260" x="1325" y="658" as="geometry" />
+        </mxCell>
+        <mxCell id="ucGenerate" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;" value="Generate Future Self Response" vertex="1">
+          <mxGeometry height="80" width="260" x="900" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="ucSpeak" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;" value="Speak in Clone Voice" vertex="1">
+          <mxGeometry height="80" width="250" x="900" y="975" as="geometry" />
+        </mxCell>
+        <mxCell id="noteCrisis" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Crisis exit (not a Future Self feature)&lt;/b&gt;&lt;br&gt;Stop the Future Self experience. No Future Self response. No imagery. Provide appropriate support / local resources. Log the interaction." vertex="1">
+          <mxGeometry height="150" width="310" x="1220" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="noteClose" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;One small action (mandatory)&lt;/b&gt;&lt;br&gt;Every Future Self interaction ends by returning agency to the user through one small action to take today." vertex="1">
+          <mxGeometry height="110" width="300" x="36" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="noteBehavior" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Future Self behaviour&lt;/b&gt;&lt;br&gt;Future Self remembers rather than behaves like a generic advice chatbot; speaks from the user&#39;s actual history; remains specific to the user&#39;s life; does not predict external events; returns agency to the user; and closes with one small action." vertex="1">
+          <mxGeometry height="110" width="790" x="360" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="incLoad" edge="1" parent="boundary" source="ucInteract" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.15;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucLoad" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="803" y="421" />
+              <mxPoint x="803" y="339" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="incContinuity" edge="1" parent="boundary" source="ucInteract" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.3;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucContinuity" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="803" y="442" />
+              <mxPoint x="803" y="443" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="incConduct" edge="1" parent="boundary" source="ucInteract" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucConduct" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="814" y="470" />
+              <mxPoint x="814" y="545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="incSafety" edge="1" parent="boundary" source="ucInteract" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.72;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucSafety" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="501" />
+              <mxPoint x="800" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="incGenerate" edge="1" parent="boundary" source="ucInteract" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.88;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucGenerate" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="786" y="523" />
+              <mxPoint x="786" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="incSpeak" edge="1" parent="boundary" source="ucInteract" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucSpeak" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="615" y="595" />
+              <mxPoint x="770" y="595" />
+              <mxPoint x="770" y="1015" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="incClose" edge="1" parent="boundary" source="ucInteract" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucClose" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="595" />
+              <mxPoint x="510" y="595" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="extCall" edge="1" parent="boundary" source="ucCall" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;fontColor=#9d6b00;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.28;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucInteract" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="323" y="410" />
+              <mxPoint x="323" y="439" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="extElder" edge="1" parent="boundary" source="ucElder" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;fontColor=#9d6b00;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.4;exitDx=0;exitDy=0;entryX=0;entryY=0.78;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucInteract" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="323" y="720" />
+              <mxPoint x="323" y="509" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="extReceive" edge="1" parent="boundary" source="ucReceive" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;fontColor=#9d6b00;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.28;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucInteract" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="344" />
+              <mxPoint x="455" y="344" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="extMilestone" edge="1" parent="boundary" source="ucMilestone" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;fontColor=#9d6b00;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.72;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucInteract" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="344" />
+              <mxPoint x="605" y="344" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="extCrisis" edge="1" parent="boundary" source="ucCrisis" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;fontColor=#b85450;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucSafety" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1233" y="708" />
+              <mxPoint x="1233" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="connectors" parent="0" value="Connectors" />
+        <mxCell id="eUserCall" edge="1" parent="connectors" source="actorUser" style="endArrow=none;strokeWidth=1.5;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.2;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucCall" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="208" y="538" />
+              <mxPoint x="208" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eUserInteract" edge="1" parent="connectors" source="actorUser" style="endArrow=none;strokeWidth=1.5;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.45;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucInteract" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="573" y="561" />
+              <mxPoint x="573" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eUserElder" edge="1" parent="connectors" source="actorUser" style="endArrow=none;strokeWidth=1.5;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.8;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucElder" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="208" y="592" />
+              <mxPoint x="208" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eUserConduct" edge="1" parent="connectors" source="actorUser" style="endArrow=none;strokeWidth=1.5;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.62;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucConduct" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="576" />
+              <mxPoint x="370" y="638" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eAIContinuity" edge="1" parent="connectors" source="actorAI" style="endArrow=none;strokeWidth=1.5;jumpStyle=arc;jumpSize=10;exitX=0;exitY=0.3;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucContinuity" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1723" y="427" />
+              <mxPoint x="1723" y="513" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eAIConduct" edge="1" parent="connectors" source="actorAI" style="endArrow=none;strokeWidth=1.5;jumpStyle=arc;jumpSize=10;exitX=0;exitY=0.7;exitDx=0;exitDy=0;entryX=1;entryY=0.35;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucConduct" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1737" y="463" />
+              <mxPoint x="1737" y="602" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eAIGenerate" edge="1" parent="connectors" source="actorAI" style="endArrow=none;strokeWidth=1.5;jumpStyle=arc;jumpSize=10;exitX=0;exitY=0.9;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucGenerate" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1445" y="481" />
+              <mxPoint x="1445" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eSTTConduct" edge="1" parent="connectors" source="actorSTT" style="endArrow=none;strokeWidth=1.5;jumpStyle=arc;jumpSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.65;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucConduct" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1733" y="630" />
+              <mxPoint x="1733" y="629" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eSafetyCheck" edge="1" parent="connectors" source="actorSafety" style="endArrow=none;strokeWidth=1.5;jumpStyle=arc;jumpSize=10;exitX=0;exitY=0.35;exitDx=0;exitDy=0;entryX=1;entryY=0.35;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucSafety" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1943" y="755" />
+              <mxPoint x="1943" y="712" />
+              <mxPoint x="1483" y="712" />
+              <mxPoint x="1483" y="768" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eSafetyCrisis" edge="1" parent="connectors" source="actorSafety" style="endArrow=none;strokeWidth=1.5;jumpStyle=arc;jumpSize=10;exitX=0;exitY=0.6;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucCrisis" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1943" y="777" />
+              <mxPoint x="1943" y="778" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eVoiceSpeak" edge="1" parent="connectors" source="actorVoice" style="endArrow=none;strokeWidth=1.5;jumpStyle=arc;jumpSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucSpeak" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

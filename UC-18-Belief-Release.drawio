@@ -1,0 +1,151 @@
+<mxfile host="localhost" agent="Cursor">
+  <diagram id="uc-18-belief-release" name="UC-18 Belief &amp; Release">
+    <mxGraphModel dx="1949" dy="1113" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="980" math="0" shadow="0" adaptiveColors="auto">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" value="Shapes" />
+        <mxCell id="title" parent="1" style="text;html=1;fontSize=18;fontStyle=1;align=left;verticalAlign=middle;whiteSpace=wrap;" value="UC-18: Belief &amp; Release — UML Use Case Diagram" vertex="1">
+          <mxGeometry height="32" width="820" x="250" y="12" as="geometry" />
+        </mxCell>
+        <mxCell id="flowHint" parent="1" style="text;html=1;fontSize=11;fontStyle=2;fontColor=#555555;align=left;verticalAlign=middle;" value="Read left → right:  User   →   goal   →   mandatory excavation steps (2–7)   →   supporting engines" vertex="1">
+          <mxGeometry height="20" width="980" x="250" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#f5f5f5;strokeColor=#666666;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Legend&lt;/b&gt;&lt;br&gt;Solid line = association&lt;br&gt;Dashed &amp;lt;&amp;lt;include&amp;gt;&amp;gt; = mandatory&lt;br&gt;Blue ovals = includes&lt;br&gt;Yellow notes = rules / constraints&lt;br&gt;Gray association = supporting safety dependency&lt;br&gt;Arc jump = crossing connectors" vertex="1">
+          <mxGeometry height="175" width="200" x="20" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="actorUser" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;fontStyle=1;" value="User" vertex="1">
+          <mxGeometry height="90" width="50" x="70" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="actorAI" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#FFFFFF;strokeColor=#000000;fontSize=11;" value="AI Conversation&lt;br&gt;Engine" vertex="1">
+          <mxGeometry height="90" width="50" x="2050" y="149" as="geometry" />
+        </mxCell>
+        <mxCell id="actorSafety" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#FFFFFF;strokeColor=#666666;fontSize=11;fontColor=#666666;" value="Safety&lt;br&gt;Classifier" vertex="1">
+          <mxGeometry height="90" width="50" x="2040" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="boundary" parent="1" style="swimlane;startSize=32;horizontal=1;collapsible=0;container=1;pointerEvents=0;fillColor=#fafafa;strokeColor=#000000;strokeWidth=2;fontStyle=1;fontSize=16;html=1;whiteSpace=wrap;" value="Manifestia" vertex="1">
+          <mxGeometry height="870" width="1740" x="230" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="noteTiming" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Timing / journey&lt;/b&gt;&lt;br&gt;Primary belief work: Steps 2–7 during Days 18–30." vertex="1">
+          <mxGeometry height="90" width="340" x="300" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ucMain" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6c8ebf;fontColor=#ffffff;strokeColor=#23445d;strokeWidth=2;fontStyle=1;fontSize=14;align=center;" value="Work Through a Limiting Belief" vertex="1">
+          <mxGeometry height="120" width="380" x="680" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ucStep2" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;" value="Remove the Symptom&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;Step 2&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="300" x="340" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ucStep3" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;" value="Surface the Protective Position&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;Step 3&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="300" x="720" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ucStep4" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;" value="State the Belief in Their Own Words&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;Step 4&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="300" x="1080" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ucStep5" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;" value="Locate the Belief Origin&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;Step 5&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="300" x="340" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="G49ehvfde4yX_8g9eLBE-1" edge="1" parent="boundary" source="ucStep6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ucStep3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ucStep6" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;" value="Retrieve Personal Counter-Evidence&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;Step 6&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="300" x="720" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="ucStep7" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;" value="Complete Release Practice&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;Step 7&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="300" x="1080" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="noteEvidence" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Counter-evidence loop:&lt;/b&gt;&lt;br&gt;Completed actions and logged wins create evidence.&lt;br&gt;Evidence is indexed against beliefs and retrieved into Release.&lt;br&gt;&lt;i&gt;From the user&#39;s own life — not a separate engine use case.&lt;/i&gt;" vertex="1">
+          <mxGeometry height="140" width="340" x="700" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="noteRelease" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Release repetition&lt;/b&gt;&lt;br&gt;Release is repeated 2–3× weekly during belief phases, with adequate capacity.&lt;br&gt;&lt;i&gt;Not a separate use case.&lt;/i&gt;" vertex="1">
+          <mxGeometry height="110" width="340" x="1080" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="noteSafety" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Safety constraint:&lt;/b&gt;&lt;br&gt;If distress is detected or capacity is low, Belief Release and ambitious imagery are withheld.&lt;br&gt;Sessions include pause/stop controls and grounding.&lt;br&gt;Never instruct the user to remain with distress.&lt;br&gt;&lt;i&gt;Constraint — not a user-facing use case.&lt;/i&gt;" vertex="1">
+          <mxGeometry height="220" width="280" x="1440" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="connectors" parent="0" value="Connectors" />
+        <mxCell id="incStep2" edge="1" parent="connectors" source="ucMain" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0.219;exitY=0.92;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;html=1;edgeStyle=orthogonalEdgeStyle;exitPerimeter=0;" target="ucStep2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.72" as="geometry">
+            <Array as="points">
+              <mxPoint x="1013.22" y="262.39" />
+              <mxPoint x="1014" y="310.04" />
+              <mxPoint x="740" y="310.04" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="incStep3" edge="1" parent="connectors" source="ucMain" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="ucStep3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.55" as="geometry" />
+        </mxCell>
+        <mxCell id="incStep4" edge="1" parent="connectors" source="ucMain" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0.791;exitY=0.928;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;html=1;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;libavoidRouting=1;" target="ucStep4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.7" as="geometry">
+            <Array as="points">
+              <mxPoint x="1460" y="261" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="incStep5" edge="1" parent="connectors" source="ucMain" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0.333;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;html=1;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;libavoidRouting=1;" target="ucStep5" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.78" as="geometry">
+            <Array as="points">
+              <mxPoint x="1037" y="330" />
+              <mxPoint x="910" y="330" />
+              <mxPoint x="910" y="520" />
+              <mxPoint x="720" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="incStep6" edge="1" parent="connectors" source="ucMain" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0.62;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;rounded=0;html=1;edgeStyle=orthogonalEdgeStyle;libavoidRouting=1;" target="ucStep6" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.78" as="geometry">
+            <Array as="points">
+              <mxPoint x="1146" y="330" />
+              <mxPoint x="1266" y="330" />
+              <mxPoint x="1266" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="incStep7" edge="1" parent="connectors" source="ucMain" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0.925;exitY=0.781;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;rounded=0;html=1;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;libavoidRouting=1;" target="ucStep7" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.72" as="geometry">
+            <Array as="points">
+              <mxPoint x="1626" y="244" />
+              <mxPoint x="1626" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nTiming" edge="1" parent="connectors" source="noteTiming" style="endArrow=none;dashed=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;strokeColor=#d6b656;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.35;entryDx=0;entryDy=0;" target="ucMain" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nEvidence" edge="1" parent="connectors" source="noteEvidence" style="endArrow=none;dashed=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;strokeColor=#d6b656;jumpStyle=arc;jumpSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="ucStep6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nRelease" edge="1" parent="connectors" source="noteRelease" style="endArrow=none;dashed=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;strokeColor=#d6b656;jumpStyle=arc;jumpSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="ucStep7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nSafety" edge="1" parent="connectors" source="noteSafety" style="endArrow=none;dashed=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;strokeColor=#d6b656;jumpStyle=arc;jumpSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.4;entryDx=0;entryDy=0;" target="ucMain" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1810" y="210" />
+              <mxPoint x="1286.38" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eUserMain" edge="1" parent="connectors" source="actorUser" style="endArrow=none;strokeWidth=1.5;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.015;entryY=0.608;entryDx=0;entryDy=0;rounded=0;html=1;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" target="ucMain" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="345" y="375" />
+              <mxPoint x="345" y="270" />
+              <mxPoint x="915.67" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eAIMain" edge="1" parent="connectors" source="actorAI" style="endArrow=none;strokeWidth=1.5;jumpStyle=arc;jumpSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.35;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="ucMain" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eSafetyMain" edge="1" parent="connectors" source="actorSafety" style="endArrow=none;strokeWidth=1;strokeColor=#888888;jumpStyle=arc;jumpSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.72;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;libavoidRouting=1;" target="ucMain" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1995" y="405" />
+              <mxPoint x="1995" y="236" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

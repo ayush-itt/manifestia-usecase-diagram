@@ -1,0 +1,294 @@
+<mxfile host="localhost" agent="Cursor">
+  <diagram id="uc-13-meditations" name="UC-13 Meditations">
+    <mxGraphModel dx="2098" dy="2798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1600" math="0" shadow="0" adaptiveColors="auto">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" value="Shapes" />
+        <mxCell id="title" parent="1" style="text;html=1;fontSize=18;fontStyle=1;align=left;verticalAlign=middle;whiteSpace=wrap;" value="UC-13: Meditations — UML Use Case Diagram" vertex="1">
+          <mxGeometry height="30" width="720" x="280" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#f5f5f5;strokeColor=#666666;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Legend&lt;/b&gt;&lt;br&gt;Solid line = association&lt;br&gt;Dashed &amp;lt;&amp;lt;include&amp;gt;&amp;gt; = mandatory&lt;br&gt;Dashed &amp;lt;&amp;lt;extend&amp;gt;&amp;gt; = optional / conditional&lt;br&gt;Blue ovals = includes&lt;br&gt;Amber ovals = extends&lt;br&gt;Yellow notes = rules / constraints&lt;br&gt;Arc jump = crossing connectors" vertex="1">
+          <mxGeometry height="195" width="200" x="30" y="-50" as="geometry" />
+        </mxCell>
+        <mxCell id="actorUser" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;fontStyle=1;" value="User" vertex="1">
+          <mxGeometry height="90" width="50" x="80" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="actorAI" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#FFFFFF;strokeColor=#000000;fontSize=11;" value="AI Personalisation&lt;br&gt;/ Selection Engine" vertex="1">
+          <mxGeometry height="90" width="50" x="2050" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="actorVoice" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#FFFFFF;strokeColor=#000000;fontSize=11;" value="Voice Clone&lt;br&gt;Service" vertex="1">
+          <mxGeometry height="90" width="50" x="2050" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="actorAudio" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#FFFFFF;strokeColor=#000000;fontSize=11;" value="Audio Generation&lt;br&gt;/ Media Service" vertex="1">
+          <mxGeometry height="90" width="50" x="2050" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="boundary" parent="1" style="swimlane;startSize=32;horizontal=1;collapsible=0;container=1;pointerEvents=0;fillColor=#fafafa;strokeColor=#000000;strokeWidth=2;fontStyle=1;fontSize=16;html=1;whiteSpace=wrap;" value="Manifestia" vertex="1">
+          <mxGeometry height="1480" width="1740" x="250" y="-50" as="geometry" />
+        </mxCell>
+        <mxCell id="ucOpen" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=center;" value="Open Meditation Practice&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;[User opens the app outside the scheduled anchors and chooses to meditate]&lt;/font&gt;" vertex="1">
+          <mxGeometry height="96" width="250" x="36" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="noteOpen" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Open practice&lt;/b&gt;&lt;br&gt;Open practice is the only place where the user browses by current feeling.&lt;br&gt;The user is presented with three meditation tracks based on how they feel.&lt;br&gt;Examples: Anxious, Flat, Angry, Scattered, Sad, Grateful, Strong.&lt;br&gt;&lt;i&gt;Feelings are not separate use cases.&lt;/i&gt;" vertex="1">
+          <mxGeometry height="150" width="270" x="36" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="notePhase" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Dream Embodiment — backbone evolution&lt;/b&gt;&lt;br&gt;Dream Embodiment becomes the backbone practice later in the journey.&lt;br&gt;Chapter 4 — Days 31–40: imagery holds lengthen, and Weekly Immersion moves to full length.&lt;br&gt;&lt;i&gt;Programme-phase rule — not a separate use case.&lt;/i&gt;" vertex="1">
+          <mxGeometry height="120" width="360" x="350" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ucPractice" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6c8ebf;fontColor=#ffffff;strokeColor=#23445d;strokeWidth=2;fontStyle=1;fontSize=14;align=center;" value="Practice Meditation" vertex="1">
+          <mxGeometry height="140" width="360" x="350" y="461" as="geometry" />
+        </mxCell>
+        <mxCell id="ucGuided" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=center;" value="Choose Guided or Music-Only&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;[User selects presentation mode]&lt;/font&gt;" vertex="1">
+          <mxGeometry height="96" width="250" x="46" y="731" as="geometry" />
+        </mxCell>
+        <mxCell id="noteGuided" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Guided / music-only&lt;/b&gt;&lt;br&gt;Every meditation type exists in a Guided version and a Music-only version. Both have the same length and emotional arc." vertex="1">
+          <mxGeometry height="110" width="270" x="36" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="noteTypes" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Seven meditation types&lt;/b&gt; &lt;i&gt;(not separate use cases)&lt;/i&gt;&lt;br&gt;1. &lt;b&gt;Dream Embodiment&lt;/b&gt; — 10–15 min, Night, backbone; settled and clarity adequate&lt;br&gt;2. &lt;b&gt;Limiting Belief Release&lt;/b&gt; — 12–15 min, Night, 2–3× weekly in belief phases; adequate capacity; never after distress&lt;br&gt;3. &lt;b&gt;Belief Installation&lt;/b&gt; — 8–12 min, Morning / before difficult situations; confidence drop, action avoided, or before a declared event&lt;br&gt;4. &lt;b&gt;Gratitude Amplification&lt;/b&gt; — 8–12 min, Either anchor; low affect or comparison&lt;br&gt;5. &lt;b&gt;The Still Point&lt;/b&gt; — 6–15 min, Early by archetype; fixed weekly; over-driving or outcome attachment&lt;br&gt;6. &lt;b&gt;Event Rehearsal&lt;/b&gt; — 10–18 min, On demand, 2× monthly; seven-day pre-event protocol&lt;br&gt;7. &lt;b&gt;The Weekly Immersion&lt;/b&gt; — 25–30 min, Once weekly at start of user&#39;s week; complete continuous arc" vertex="1">
+          <mxGeometry height="168" width="780" x="920" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ucSelect" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;" value="Select Meditation by State" vertex="1">
+          <mxGeometry height="78" width="260" x="920" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="notePriority" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Selection priority&lt;/b&gt;&lt;br&gt;1. Safety&amp;nbsp;&amp;nbsp; 2. Current state&amp;nbsp;&amp;nbsp; 3. Belief work&amp;nbsp;&amp;nbsp; 4. Variety&lt;br&gt;&lt;b&gt;State examples:&lt;/b&gt; Low affect → Gratitude or Belief Installation; Agitation → Still Point; Settled and clear → Dream Embodiment; Repeated avoidance + capacity → Limiting Belief Release.&lt;br&gt;&lt;b&gt;Safety (highest priority):&lt;/b&gt; A distress signal removes Limiting Belief Release and ambitious imagery. Offer Still Point or Gratitude instead. Safety is a constraint, not a user-facing use case." vertex="1">
+          <mxGeometry height="165" width="420" x="920" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="noteVariety" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Variety rule&lt;/b&gt;&lt;br&gt;No meditation type may be recommended more than three consecutive nights, even if state and programme phase would otherwise repeat it." vertex="1">
+          <mxGeometry height="95" width="340" x="1360" y="321" as="geometry" />
+        </mxCell>
+        <mxCell id="ucGenerate" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;" value="Generate Personalized Meditation" vertex="1">
+          <mxGeometry height="78" width="270" x="920" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="notePersonalize" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Personalization rule&lt;/b&gt;&lt;br&gt;Do not generate a generic stock track with only the user&#39;s name inserted.&lt;br&gt;Personalize to the user&#39;s actual dream, obstacle, relevant personal context, programme state, and current architecture." vertex="1">
+          <mxGeometry height="115" width="420" x="920" y="602" as="geometry" />
+        </mxCell>
+        <mxCell id="ucVoice" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;" value="Choose Voice Mode" vertex="1">
+          <mxGeometry height="78" width="250" x="920" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="noteVoiceModes" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Voice modes&lt;/b&gt;&lt;br&gt;• User&#39;s cloned voice when available/selected&lt;br&gt;• Default voice when cloned voice is not used&lt;br&gt;• Music-only / unguided mode" vertex="1">
+          <mxGeometry height="95" width="420" x="920" y="832" as="geometry" />
+        </mxCell>
+        <mxCell id="ucRender" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;" value="Generate / Render Meditation Audio" vertex="1">
+          <mxGeometry height="84" width="280" x="920" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="noteAudio" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Audio generation&lt;/b&gt;&lt;br&gt;• Guided and music-only versions; same length and emotional arc&lt;br&gt;• Personalized script mixed with appropriate music at generation time&lt;br&gt;• Stem-based music beds; generated at the required length&lt;br&gt;• Cached for offline use; consistent loudness and fade behavior&lt;br&gt;• User&#39;s cloned voice is the preferred personalized voice element where applicable" vertex="1">
+          <mxGeometry height="120" width="520" x="950" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="ucPlay" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;" value="Play Meditation" vertex="1">
+          <mxGeometry height="76" width="220" x="90" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="ucLog" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;" value="Log Meditation Session" vertex="1">
+          <mxGeometry height="76" width="230" x="350" y="1136" as="geometry" />
+        </mxCell>
+        <mxCell id="ucCache" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;" value="Cache Meditation for Offline Use" vertex="1">
+          <mxGeometry height="76" width="250" x="850" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="noteLog" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Session log&lt;/b&gt; &lt;i&gt;(not separate use cases)&lt;/i&gt;&lt;br&gt;Meditation type; length; guided or music-only; completion percentage; pause points; post-session state; pre/post state where applicable." vertex="1">
+          <mxGeometry height="110" width="300" x="315" y="1260" as="geometry" />
+        </mxCell>
+        <mxCell id="noteCache" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Offline reliability&lt;/b&gt;&lt;br&gt;All meditation audio must be cached for offline use." vertex="1">
+          <mxGeometry height="80" width="280" x="890" y="1330" as="geometry" />
+        </mxCell>
+        <mxCell id="incSelect" edge="1" parent="boundary" source="ucPractice" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.15;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucSelect" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="815" y="482" />
+              <mxPoint x="815" y="269" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="incGenerate" edge="1" parent="boundary" source="ucPractice" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.35;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucGenerate" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="829" y="510" />
+              <mxPoint x="829" y="549" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="incVoice" edge="1" parent="boundary" source="ucPractice" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.55;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucVoice" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="815" y="538" />
+              <mxPoint x="815" y="779" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="incRender" edge="1" parent="boundary" source="ucPractice" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.85;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucRender" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="815" y="580" />
+              <mxPoint x="815" y="992" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="incPlay" edge="1" parent="boundary" source="ucPractice" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucPlay" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="1025" />
+              <mxPoint x="200" y="1025" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="incLog" edge="1" parent="boundary" source="ucPractice" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucLog" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="869" />
+              <mxPoint x="465" y="869" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="incCache" edge="1" parent="boundary" source="ucPractice" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0.8;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucCache" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="638" y="1205" />
+              <mxPoint x="975" y="1205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="extOpen" edge="1" parent="boundary" source="ucOpen" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;fontColor=#9d6b00;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;libavoidRouting=1;" target="ucPractice" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="318" y="368" />
+              <mxPoint x="318" y="461" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="extGuided" edge="1" parent="boundary" source="ucGuided" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;fontColor=#9d6b00;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.068;entryY=0.783;entryDx=0;entryDy=0;entryPerimeter=0;" target="ucPractice" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="374" y="779" />
+            </Array>
+            <mxPoint x="360" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nSelectTypes" edge="1" parent="boundary" source="noteTypes" style="endArrow=none;dashed=1;html=1;strokeColor=#d6b656;jumpStyle=arc;jumpSize=10;exitX=0.15;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;" target="ucSelect" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1037" y="222" />
+              <mxPoint x="1050" y="222" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nSelectPriority" edge="1" parent="boundary" source="notePriority" style="endArrow=none;dashed=1;html=1;strokeColor=#d6b656;jumpStyle=arc;jumpSize=10;exitX=0.2;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;" target="ucSelect" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1004" y="314" />
+              <mxPoint x="1050" y="314" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nSelectVariety" edge="1" parent="boundary" source="noteVariety" style="endArrow=none;dashed=1;html=1;strokeColor=#d6b656;jumpStyle=arc;jumpSize=10;exitX=0;exitY=0.3;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;" target="ucSelect" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nPhasePractice" edge="1" parent="boundary" source="notePhase" style="endArrow=none;dashed=1;html=1;strokeColor=#d6b656;jumpStyle=arc;jumpSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.483;entryY=0.001;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;entryPerimeter=0;" target="ucPractice" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nPersonalizeGen" edge="1" parent="boundary" source="notePersonalize" style="endArrow=none;dashed=1;html=1;strokeColor=#d6b656;jumpStyle=arc;jumpSize=10;exitX=0.2;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;" target="ucGenerate" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1004" y="595" />
+              <mxPoint x="1055" y="595" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nVoiceModes" edge="1" parent="boundary" source="noteVoiceModes" style="endArrow=none;dashed=1;html=1;strokeColor=#d6b656;jumpStyle=arc;jumpSize=10;exitX=0.2;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;" target="ucVoice" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1004" y="825" />
+              <mxPoint x="1045" y="825" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nAudioRender" edge="1" parent="boundary" source="noteAudio" style="endArrow=none;dashed=1;html=1;strokeColor=#d6b656;jumpStyle=arc;jumpSize=10;exitX=0.2;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;" target="ucRender" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1054" y="1042" />
+              <mxPoint x="1060" y="1042" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nOpenUc" edge="1" parent="boundary" source="noteOpen" style="endArrow=none;dashed=1;html=1;strokeColor=#d6b656;jumpStyle=arc;jumpSize=10;exitX=0.468;exitY=1.017;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;orthogonalLoop=1;jettySize=auto;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" target="ucOpen" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGuidedUc" edge="1" parent="boundary" source="noteGuided" style="endArrow=none;dashed=1;html=1;strokeColor=#d6b656;jumpStyle=arc;jumpSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;" target="ucGuided" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nLogUc" edge="1" parent="boundary" source="noteLog" style="endArrow=none;dashed=1;html=1;strokeColor=#d6b656;jumpStyle=arc;jumpSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;" target="ucLog" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nCacheUc" edge="1" parent="boundary" source="noteCache" style="endArrow=none;dashed=1;html=1;strokeColor=#d6b656;jumpStyle=arc;jumpSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;" target="ucCache" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1030" y="1323" />
+              <mxPoint x="975" y="1323" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="connectors" parent="0" value="Connectors" />
+        <mxCell id="eUserOpen" edge="1" parent="connectors" source="actorUser" style="endArrow=none;strokeWidth=1.5;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.2;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucOpen" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="208" y="578" />
+              <mxPoint x="208" y="318" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eUserPractice" edge="1" parent="connectors" source="actorUser" style="endArrow=none;strokeWidth=1.5;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.45;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucPractice" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="365" y="601" />
+              <mxPoint x="365" y="481" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eUserGuided" edge="1" parent="connectors" source="actorUser" style="endArrow=none;strokeWidth=1.5;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.8;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ucGuided" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="213" y="632" />
+              <mxPoint x="213" y="729" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eAISelect" edge="1" parent="connectors" source="actorAI" style="endArrow=none;strokeWidth=1.5;jumpStyle=arc;jumpSize=10;exitX=0;exitY=0.35;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucSelect" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2000" y="392" />
+              <mxPoint x="2000" y="219" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eAIGenerate" edge="1" parent="connectors" source="actorAI" style="endArrow=none;strokeWidth=1.5;jumpStyle=arc;jumpSize=10;exitX=0;exitY=0.7;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucGenerate" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1820" y="423" />
+              <mxPoint x="1820" y="499" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eVoiceMode" edge="1" parent="connectors" source="actorVoice" style="endArrow=none;strokeWidth=1.5;jumpStyle=arc;jumpSize=10;exitX=0;exitY=0.35;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucVoice" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1820" y="812" />
+              <mxPoint x="1820" y="729" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eVoiceRender" edge="1" parent="connectors" source="actorVoice" style="endArrow=none;strokeWidth=1.5;jumpStyle=arc;jumpSize=10;exitX=0;exitY=0.7;exitDx=0;exitDy=0;entryX=1;entryY=0.35;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucRender" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1820" y="843" />
+              <mxPoint x="1820" y="929" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eAudioRender" edge="1" parent="connectors" source="actorAudio" style="endArrow=none;strokeWidth=1.5;jumpStyle=arc;jumpSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.7;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucRender" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1885" y="1035" />
+              <mxPoint x="1885" y="959" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
