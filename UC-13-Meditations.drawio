@@ -1,6 +1,5 @@
 <mxfile host="localhost" agent="Cursor">
-  <diagram id="uc-13-meditations" name="UC-13 Meditations">
-    <mxGraphModel dx="2098" dy="2798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1600" math="0" shadow="0" adaptiveColors="auto">
+  <diagram id="uc-13-meditations" name="UC-13 Meditations"><mxGraphModel dx="2098" dy="2798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1600" math="0" shadow="0" adaptiveColors="auto">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" value="Shapes" />
@@ -28,8 +27,8 @@
         <mxCell id="ucOpen" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=center;" value="Open Meditation Practice&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;[User opens the app outside the scheduled anchors and chooses to meditate]&lt;/font&gt;" vertex="1">
           <mxGeometry height="96" width="250" x="36" y="320" as="geometry" />
         </mxCell>
-        <mxCell id="noteOpen" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Open practice&lt;/b&gt;&lt;br&gt;Open practice is the only place where the user browses by current feeling.&lt;br&gt;The user is presented with three meditation tracks based on how they feel.&lt;br&gt;Examples: Anxious, Flat, Angry, Scattered, Sad, Grateful, Strong.&lt;br&gt;&lt;i&gt;Feelings are not separate use cases.&lt;/i&gt;" vertex="1">
-          <mxGeometry height="150" width="270" x="36" y="130" as="geometry" />
+        <mxCell id="noteOpen" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Open practice&lt;/b&gt;&lt;br&gt;Open practice is the only place where the user browses by current feeling.&lt;br&gt;The user is presented with three meditation tracks based on how they feel.&lt;br&gt;Examples: Anxious, Flat, Angry, Scattered, Sad, Grateful, Strong.&lt;br&gt;Scheduled night selection is system-driven from state + programme phase; browsing by feeling happens only in open practice.&lt;br&gt;&lt;i&gt;Feelings are not separate use cases.&lt;/i&gt;" vertex="1">
+          <mxGeometry height="175" width="270" x="36" y="130" as="geometry" />
         </mxCell>
         <mxCell id="notePhase" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Dream Embodiment — backbone evolution&lt;/b&gt;&lt;br&gt;Dream Embodiment becomes the backbone practice later in the journey.&lt;br&gt;Chapter 4 — Days 31–40: imagery holds lengthen, and Weekly Immersion moves to full length.&lt;br&gt;&lt;i&gt;Programme-phase rule — not a separate use case.&lt;/i&gt;" vertex="1">
           <mxGeometry height="120" width="360" x="350" y="290" as="geometry" />
@@ -37,13 +36,13 @@
         <mxCell id="ucPractice" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6c8ebf;fontColor=#ffffff;strokeColor=#23445d;strokeWidth=2;fontStyle=1;fontSize=14;align=center;" value="Practice Meditation" vertex="1">
           <mxGeometry height="140" width="360" x="350" y="461" as="geometry" />
         </mxCell>
-        <mxCell id="ucGuided" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=center;" value="Choose Guided or Music-Only&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;[User selects presentation mode]&lt;/font&gt;" vertex="1">
+        <mxCell id="ucGuided" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;" value="Choose Guided or Music-Only&lt;br&gt;&lt;font style=&quot;font-size:9px&quot;&gt;[User selects presentation mode]&lt;/font&gt;" vertex="1">
           <mxGeometry height="96" width="250" x="46" y="731" as="geometry" />
         </mxCell>
         <mxCell id="noteGuided" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Guided / music-only&lt;/b&gt;&lt;br&gt;Every meditation type exists in a Guided version and a Music-only version. Both have the same length and emotional arc." vertex="1">
           <mxGeometry height="110" width="270" x="36" y="880" as="geometry" />
         </mxCell>
-        <mxCell id="noteTypes" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Seven meditation types&lt;/b&gt; &lt;i&gt;(not separate use cases)&lt;/i&gt;&lt;br&gt;1. &lt;b&gt;Dream Embodiment&lt;/b&gt; — 10–15 min, Night, backbone; settled and clarity adequate&lt;br&gt;2. &lt;b&gt;Limiting Belief Release&lt;/b&gt; — 12–15 min, Night, 2–3× weekly in belief phases; adequate capacity; never after distress&lt;br&gt;3. &lt;b&gt;Belief Installation&lt;/b&gt; — 8–12 min, Morning / before difficult situations; confidence drop, action avoided, or before a declared event&lt;br&gt;4. &lt;b&gt;Gratitude Amplification&lt;/b&gt; — 8–12 min, Either anchor; low affect or comparison&lt;br&gt;5. &lt;b&gt;The Still Point&lt;/b&gt; — 6–15 min, Early by archetype; fixed weekly; over-driving or outcome attachment&lt;br&gt;6. &lt;b&gt;Event Rehearsal&lt;/b&gt; — 10–18 min, On demand, 2× monthly; seven-day pre-event protocol&lt;br&gt;7. &lt;b&gt;The Weekly Immersion&lt;/b&gt; — 25–30 min, Once weekly at start of user&#39;s week; complete continuous arc" vertex="1">
+        <mxCell id="noteTypes" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Seven meditation types&lt;/b&gt; &lt;i&gt;(not separate use cases)&lt;/i&gt;&lt;br&gt;1. &lt;b&gt;Dream Embodiment&lt;/b&gt; — 10–15 min, Night, backbone; settled and clarity adequate&lt;br&gt;2. &lt;b&gt;Limiting Belief Release&lt;/b&gt; — 12–15 min, Night, 2–3× weekly in belief phases; adequate capacity; never after distress&lt;br&gt;3. &lt;b&gt;Belief Installation&lt;/b&gt; — 8–12 min, Morning / before difficult situations; confidence drop, action avoided, or before a declared event&lt;br&gt;4. &lt;b&gt;Gratitude Amplification&lt;/b&gt; — 8–12 min, morning / midday / night touchpoints; low affect or comparison&lt;br&gt;5. &lt;b&gt;The Still Point&lt;/b&gt; — 6–15 min, Early by archetype; fixed weekly; over-driving or outcome attachment&lt;br&gt;6. &lt;b&gt;Event Rehearsal&lt;/b&gt; — 10–18 min, On demand, 2× monthly; seven-day pre-event protocol&lt;br&gt;7. &lt;b&gt;The Weekly Immersion&lt;/b&gt; — 25–30 min, Once weekly at start of user&#39;s week; complete continuous arc" vertex="1">
           <mxGeometry height="168" width="780" x="920" y="46" as="geometry" />
         </mxCell>
         <mxCell id="ucSelect" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;" value="Select Meditation by State" vertex="1">
@@ -152,12 +151,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="extGuided" edge="1" parent="boundary" source="ucGuided" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;fontColor=#9d6b00;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.068;entryY=0.783;entryDx=0;entryDy=0;entryPerimeter=0;" target="ucPractice" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+        <mxCell id="incGuided" edge="1" parent="boundary" source="ucPractice" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0.068;exitY=0.783;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucGuided" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="374" y="779" />
             </Array>
-            <mxPoint x="360" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nSelectTypes" edge="1" parent="boundary" source="noteTypes" style="endArrow=none;dashed=1;html=1;strokeColor=#d6b656;jumpStyle=arc;jumpSize=10;exitX=0.15;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;" target="ucSelect" value="">
@@ -240,14 +238,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="eUserGuided" edge="1" parent="connectors" source="actorUser" style="endArrow=none;strokeWidth=1.5;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.8;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ucGuided" value="">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="213" y="632" />
-              <mxPoint x="213" y="729" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="eAISelect" edge="1" parent="connectors" source="actorAI" style="endArrow=none;strokeWidth=1.5;jumpStyle=arc;jumpSize=10;exitX=0;exitY=0.35;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucSelect" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -289,6 +279,5 @@
           </mxGeometry>
         </mxCell>
       </root>
-    </mxGraphModel>
-  </diagram>
+    </mxGraphModel></diagram>
 </mxfile>

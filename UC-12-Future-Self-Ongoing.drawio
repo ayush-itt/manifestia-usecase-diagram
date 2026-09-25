@@ -1,6 +1,5 @@
 <mxfile host="localhost">
-  <diagram name="Page-1" id="Y5RJG8XqDsKQ_2FiP0CA">
-    <mxGraphModel dx="2480" dy="1416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1550" math="0" shadow="0" adaptiveColors="auto">
+  <diagram name="Page-1" id="Y5RJG8XqDsKQ_2FiP0CA"><mxGraphModel dx="2480" dy="1416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1550" math="0" shadow="0" adaptiveColors="auto">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" value="Shapes" />
@@ -70,14 +69,17 @@
         <mxCell id="ucGenerate" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;" value="Generate Future Self Response" vertex="1">
           <mxGeometry height="80" width="260" x="900" y="830" as="geometry" />
         </mxCell>
-        <mxCell id="ucSpeak" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;" value="Speak in Clone Voice" vertex="1">
+        <mxCell id="ucSpeak" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;align=center;" value="Speak in Clone Voice" vertex="1">
           <mxGeometry height="80" width="250" x="900" y="975" as="geometry" />
         </mxCell>
-        <mxCell id="noteCrisis" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Crisis exit (not a Future Self feature)&lt;/b&gt;&lt;br&gt;Stop the Future Self experience. No Future Self response. No imagery. Provide appropriate support / local resources. Log the interaction." vertex="1">
-          <mxGeometry height="150" width="310" x="1220" y="800" as="geometry" />
+        <mxCell id="noteCrisis" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Crisis exit (not a Future Self feature)&lt;/b&gt;&lt;br&gt;Stop the Future Self experience. No Future Self response. Generate Future Self Response is skipped on crisis. No imagery. Provide appropriate support / local resources. Log the interaction." vertex="1">
+          <mxGeometry height="165" width="310" x="1220" y="800" as="geometry" />
         </mxCell>
-        <mxCell id="noteClose" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;One small action (mandatory)&lt;/b&gt;&lt;br&gt;Every Future Self interaction ends by returning agency to the user through one small action to take today." vertex="1">
-          <mxGeometry height="110" width="300" x="36" y="860" as="geometry" />
+        <mxCell id="noteClose" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;One small action (non-crisis)&lt;/b&gt;&lt;br&gt;Every non-crisis Future Self interaction ends by returning agency to the user through one small action to take today. Skipped when Exit to Crisis Pathway fires." vertex="1">
+          <mxGeometry height="125" width="300" x="36" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="noteSpeak" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Clone voice&lt;/b&gt;&lt;br&gt;Clone voice when available and not crisis. Otherwise default/guide voice. On the crisis path the clone must never speak (silence)." vertex="1">
+          <mxGeometry height="125" width="290" x="480" y="990" as="geometry" />
         </mxCell>
         <mxCell id="noteBehavior" parent="boundary" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;spacingTop=6;fontSize=10;verticalAlign=top;" value="&lt;b&gt;Future Self behaviour&lt;/b&gt;&lt;br&gt;Future Self remembers rather than behaves like a generic advice chatbot; speaks from the user&#39;s actual history; remains specific to the user&#39;s life; does not predict external events; returns agency to the user; and closes with one small action." vertex="1">
           <mxGeometry height="110" width="790" x="360" y="1140" as="geometry" />
@@ -114,7 +116,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="incGenerate" edge="1" parent="boundary" source="ucInteract" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.88;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucGenerate" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+        <mxCell id="incGenerate" edge="1" parent="boundary" source="ucInteract" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.88;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucGenerate" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;br&gt;{not crisis}">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="786" y="523" />
@@ -122,16 +124,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="incSpeak" edge="1" parent="boundary" source="ucInteract" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucSpeak" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+        <mxCell id="incSpeak" edge="1" parent="boundary" source="ucSpeak" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;fontColor=#9d6b00;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucInteract" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;br&gt;{clone available and not crisis}">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="615" y="595" />
-              <mxPoint x="770" y="595" />
               <mxPoint x="770" y="1015" />
+              <mxPoint x="770" y="595" />
+              <mxPoint x="615" y="595" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="incClose" edge="1" parent="boundary" source="ucInteract" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucClose" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+        <mxCell id="nSpeak" edge="1" parent="boundary" source="noteSpeak" style="endArrow=none;dashed=1;html=1;strokeColor=#d6b656;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.45;exitDx=0;exitDy=0;entryX=0;entryY=0.8;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;" target="ucSpeak" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="incClose" edge="1" parent="boundary" source="ucInteract" style="endArrow=open;endFill=0;dashed=1;dashPattern=8 8;fontSize=10;fontStyle=2;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="ucClose" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;br&gt;{not crisis}">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="530" y="595" />
@@ -266,6 +271,5 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
-    </mxGraphModel>
-  </diagram>
+    </mxGraphModel></diagram>
 </mxfile>
